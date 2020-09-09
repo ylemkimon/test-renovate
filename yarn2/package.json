@@ -1,0 +1,6 @@
+{
+  "name": "yarn2-test",
+  "dependencies": {
+    "chalk": "^2.4.1"
+  }
+}
