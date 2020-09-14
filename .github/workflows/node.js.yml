@@ -23,6 +23,15 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: 12
+    - uses: actions/github-script@v3
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        script: console.log("test");
     - run: |
         cd yarn2
         yarn install --immutable
+    - uses: actions/upload-artifact@v2
+      if: failure()
+      with:
+        name: yarn.lock
+        path: yarn2/yarn.lock
