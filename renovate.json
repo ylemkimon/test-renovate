@@ -4,5 +4,10 @@
     ":prHourlyLimitNone"
   ],
   "rangeStrategy": "update-lockfile",
-  "postUpdateOptions": ["yarnDedupeHighest"]
+  "postUpdateOptions": ["yarnDedupeHighest"],
+  "regexManagers": [{
+    "datasourceTemplate": "github-tags",
+    "fileMatch": ["^\\.github/workflows/[^/]+\\.ya?ml$"],
+    "matchStrings": ["uses: (?<depName>.*?)@(?<currentValue>.*?)\\s"]
+  }]
 }
