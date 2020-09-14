@@ -37,7 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
-            ["chalk", "npm:2.4.1"],
+            ["chalk", "npm:2.4.2"],
             ["debug", "virtual:bb6424f1a3a971e46f308593d6c6a1417be682fe25db1f94217be688b9d8d3f42622c280ae20b2e91e0f76f8d9278b93dc80c85e9fc32ff785635b97b89c504f#npm:3.1.0"]
           ],
           "linkType": "SOFT",
@@ -54,10 +54,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["chalk", [
-        ["npm:2.4.1", {
-          "packageLocation": "./.yarn/cache/chalk-npm-2.4.1-bd3d986c77-4622cdba47.zip/node_modules/chalk/",
+        ["npm:2.4.2", {
+          "packageLocation": "./.yarn/cache/chalk-npm-2.4.2-3ea16dd91e-22c7b7b5bc.zip/node_modules/chalk/",
           "packageDependencies": [
-            ["chalk", "npm:2.4.1"],
+            ["chalk", "npm:2.4.2"],
             ["ansi-styles", "npm:3.2.1"],
             ["escape-string-regexp", "npm:1.0.5"],
             ["supports-color", "npm:5.5.0"]
@@ -140,7 +140,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["yarn2-test", "workspace:."],
-            ["chalk", "npm:2.4.1"],
+            ["chalk", "npm:2.4.2"],
             ["debug", "virtual:bb6424f1a3a971e46f308593d6c6a1417be682fe25db1f94217be688b9d8d3f42622c280ae20b2e91e0f76f8d9278b93dc80c85e9fc32ff785635b97b89c504f#npm:3.1.0"]
           ],
           "linkType": "SOFT",
