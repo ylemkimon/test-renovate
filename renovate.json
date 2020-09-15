@@ -10,5 +10,9 @@
     "matchStrings": ["uses: (?<depName>.*?)@(?<currentValue>.*?)\\s"],
     "datasourceTemplate": "github-tags",
     "versioningTemplate": "regex:^v(?<major>\\d+)$"
+  }, {
+    "filematch": ["^version$"],
+    "matchStrings": ["(?<depName>.*?)=(?<currentValue>.*?)\\s"],
+    "datasourceTemplate": "npm"
   }]
 }
