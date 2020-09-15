@@ -11,7 +11,7 @@
     "datasourceTemplate": "github-tags",
     "versioningTemplate": "regex:^v(?<major>\\d+)$"
   }, {
-    "filematch": ["^version$"],
+    "fileMatch": ["^version$"],
     "matchStrings": ["(?<depName>.*?)=(?<currentValue>.*?)\\s"],
     "datasourceTemplate": "npm"
   }]
