@@ -4,15 +4,5 @@
     ":prHourlyLimitNone"
   ],
   "rangeStrategy": "update-lockfile",
-  "postUpdateOptions": ["yarnDedupeHighest"],
-  "regexManagers": [{
-    "fileMatch": ["^\\.github/workflows/[^/]+\\.ya?ml$"],
-    "matchStrings": ["uses: (?<depName>.*?)@(?<currentValue>.*?)\\s"],
-    "datasourceTemplate": "github-tags",
-    "versioningTemplate": "regex:^v(?<major>\\d+)$"
-  }, {
-    "fileMatch": ["^version$"],
-    "matchStrings": ["(?<depName>.*?)=(?<currentValue>.*?)\\s"],
-    "datasourceTemplate": "npm"
-  }]
+  "postUpdateOptions": ["yarnDedupeHighest"]
 }
