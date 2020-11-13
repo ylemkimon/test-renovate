@@ -41,12 +41,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"debug@npm:^3.1.0":
-  version: 3.1.0
-  resolution: "debug@npm:3.1.0"
+"debug@npm:^4.0.0":
+  version: 4.3.0
+  resolution: "debug@npm:4.3.0"
   dependencies:
-    ms: 2.0.0
-  checksum: 1295acd5e0531761255661d325cd0a80ac8c5f6de8942a53bb23c2197ccb97526972de662ed0e5d9393be83f3428a298a6e7185ecb02f0da6282019cd2ffb4a8
+    ms: 2.1.2
+  peerDependenciesMeta:
+    supports-color:
+      optional: true
+  checksum: 847d2760d1493cfaef53fb67d8943c6afaba30472d7527450c19919d230dde04f2275dd8dd5c2874c7103787c190d3b5d3dbc2ee7596a12d853a2ce35c4b8b1b
   languageName: node
   linkType: hard
 
@@ -64,10 +67,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ms@npm:2.0.0":
-  version: 2.0.0
-  resolution: "ms@npm:2.0.0"
-  checksum: 1a230340cc7f322fbe916783d8c8d60455407c6b7fb7f901d6ee34eb272402302c5c7f070a97b8531245cbb4ca6a0a623f6a128d7e5a5440cefa2c669c0b35bb
+"ms@npm:2.1.2":
+  version: 2.1.2
+  resolution: "ms@npm:2.1.2"
+  checksum: 9b65fb709bc30c0c07289dcbdb61ca032acbb9ea5698b55fa62e2cebb04c5953f1876a1f3f7f4bc2e91d4bf4d86003f3e207c3bc6ee2f716f99827e62389cd0e
   languageName: node
   linkType: hard
 
@@ -85,6 +88,6 @@ __metadata:
   resolution: "yarn2-test@workspace:."
   dependencies:
     chalk: ^2.4.1
-    debug: ^3.1.0
+    debug: ^4.0.0
   languageName: unknown
   linkType: soft

@@ -38,7 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["chalk", "npm:2.4.2"],
-            ["debug", "virtual:bb6424f1a3a971e46f308593d6c6a1417be682fe25db1f94217be688b9d8d3f42622c280ae20b2e91e0f76f8d9278b93dc80c85e9fc32ff785635b97b89c504f#npm:3.1.0"]
+            ["debug", "virtual:bb6424f1a3a971e46f308593d6c6a1417be682fe25db1f94217be688b9d8d3f42622c280ae20b2e91e0f76f8d9278b93dc80c85e9fc32ff785635b97b89c504f#npm:4.3.0"]
           ],
           "linkType": "SOFT",
         }]
@@ -85,11 +85,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["debug", [
-        ["virtual:bb6424f1a3a971e46f308593d6c6a1417be682fe25db1f94217be688b9d8d3f42622c280ae20b2e91e0f76f8d9278b93dc80c85e9fc32ff785635b97b89c504f#npm:3.1.0", {
-          "packageLocation": "./.yarn/$$virtual/debug-virtual-28e28fbc82/0/cache/debug-npm-3.1.0-9f0accb99b-1295acd5e0.zip/node_modules/debug/",
+        ["virtual:bb6424f1a3a971e46f308593d6c6a1417be682fe25db1f94217be688b9d8d3f42622c280ae20b2e91e0f76f8d9278b93dc80c85e9fc32ff785635b97b89c504f#npm:4.3.0", {
+          "packageLocation": "./.yarn/$$virtual/debug-virtual-fd41355c15/0/cache/debug-npm-4.3.0-b4bda317a1-847d2760d1.zip/node_modules/debug/",
           "packageDependencies": [
-            ["debug", "virtual:bb6424f1a3a971e46f308593d6c6a1417be682fe25db1f94217be688b9d8d3f42622c280ae20b2e91e0f76f8d9278b93dc80c85e9fc32ff785635b97b89c504f#npm:3.1.0"],
-            ["ms", "npm:2.0.0"],
+            ["debug", "virtual:bb6424f1a3a971e46f308593d6c6a1417be682fe25db1f94217be688b9d8d3f42622c280ae20b2e91e0f76f8d9278b93dc80c85e9fc32ff785635b97b89c504f#npm:4.3.0"],
+            ["ms", "npm:2.1.2"],
             ["supports-color", null]
           ],
           "packagePeers": [
@@ -117,10 +117,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["ms", [
-        ["npm:2.0.0", {
-          "packageLocation": "./.yarn/cache/ms-npm-2.0.0-9e1101a471-1a230340cc.zip/node_modules/ms/",
+        ["npm:2.1.2", {
+          "packageLocation": "./.yarn/cache/ms-npm-2.1.2-ec0c1512ff-9b65fb709b.zip/node_modules/ms/",
           "packageDependencies": [
-            ["ms", "npm:2.0.0"]
+            ["ms", "npm:2.1.2"]
           ],
           "linkType": "HARD",
         }]
@@ -141,7 +141,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["yarn2-test", "workspace:."],
             ["chalk", "npm:2.4.2"],
-            ["debug", "virtual:bb6424f1a3a971e46f308593d6c6a1417be682fe25db1f94217be688b9d8d3f42622c280ae20b2e91e0f76f8d9278b93dc80c85e9fc32ff785635b97b89c504f#npm:3.1.0"]
+            ["debug", "virtual:bb6424f1a3a971e46f308593d6c6a1417be682fe25db1f94217be688b9d8d3f42622c280ae20b2e91e0f76f8d9278b93dc80c85e9fc32ff785635b97b89c504f#npm:4.3.0"]
           ],
           "linkType": "SOFT",
         }]
